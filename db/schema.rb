@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 20130929190840) do
   create_table "projects", force: true do |t|
     t.string   "name"
     t.string   "description"
-    t.integer  "lifecycle_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

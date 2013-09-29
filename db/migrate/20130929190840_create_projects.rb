@@ -3,7 +3,6 @@ class CreateProjects < ActiveRecord::Migration
     create_table :projects do |t|
       t.string :name
       t.string :description
-      t.integer :lifecycle_id
 
       t.timestamps
     end
