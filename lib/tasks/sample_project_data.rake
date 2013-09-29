@@ -7,7 +7,7 @@ namespace :db do
   task populate: :environment do
     30.times do |n|
       Project.create!(name: "Project"+n.to_s,
-                      description: "Great project"+n.to_s)
+                      description: "Great projects"+n.to_s)
     end
   end
 end

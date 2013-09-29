@@ -1,7 +1,7 @@
 PET::Application.routes.draw do
-  get "project/index"
+  get "projects/index"
 
-  get 'projects' => 'project#index'
+  get 'projects' => 'projects#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
