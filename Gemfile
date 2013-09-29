@@ -5,6 +5,7 @@ ruby '1.9.3'
 gem 'rails', '4.0.0'
 gem 'devise'
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'faker', '1.1.2'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
